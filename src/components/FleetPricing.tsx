@@ -7,10 +7,10 @@ const fleetData = [
     name: 'Gulfstream G200',
     image: '/images/jet_midflight.png',
     pricing: [
-      { service: 'Exterior Detailing', price: '₹45,000 – ₹60,000' },
-      { service: 'Interior Detailing', price: '₹35,000 – ₹50,000' },
-      { service: 'Full Premium Detailing', price: '₹75,000 – ₹1,00,000' },
-      { service: 'Charter Turnaround Service', price: '₹12,000 – ₹18,000' }
+      { service: 'Exterior Detailing', price: '₹10,000' },
+      { service: 'Interior Detailing', price: '₹5000' },
+      { service: 'Full Premium Detailing', price: '₹20,000' },
+      { service: 'Charter Turnaround Service', price: '₹25,000' }
     ]
   },
   {
@@ -18,10 +18,10 @@ const fleetData = [
     name: 'Falcon 6X',
     image: '/images/hero_jet.png',
     pricing: [
-      { service: 'Exterior Detailing', price: '₹55,000 – ₹75,000' },
-      { service: 'Interior Detailing', price: '₹45,000 – ₹65,000' },
-      { service: 'Full Premium Detailing', price: '₹95,000 – ₹1,30,000' },
-      { service: 'Charter Turnaround Service', price: '₹15,000 – ₹22,000' }
+     { service: 'Exterior Detailing', price: '₹15,000' },
+      { service: 'Interior Detailing', price: '₹5,000' },
+      { service: 'Full Premium Detailing', price: '₹20,000' },
+      { service: 'Charter Turnaround Service', price: '₹25,000' }
     ]
   },
   {
@@ -29,10 +29,10 @@ const fleetData = [
     name: 'Embraer Legacy 600 / 650',
     image: '/images/jet_interior.png',
     pricing: [
-      { service: 'Exterior Detailing', price: '₹50,000 – ₹70,000' },
-      { service: 'Interior Detailing', price: '₹40,000 – ₹60,000' },
-      { service: 'Full Premium Detailing', price: '₹85,000 – ₹1,20,000' },
-      { service: 'Charter Turnaround Service', price: '₹14,000 – ₹20,000' }
+      { service: 'Exterior Detailing', price: '₹10,000' },
+      { service: 'Interior Detailing', price: '₹5000' },
+      { service: 'Full Premium Detailing', price: '₹20,000' },
+      { service: 'Charter Turnaround Service', price: '₹25,000' }
     ]
   },
   {
@@ -40,10 +40,10 @@ const fleetData = [
     name: 'Falcon 2000LX',
     image: '/images/jet_midflight.png',
     pricing: [
-      { service: 'Exterior Detailing', price: '₹55,000 – ₹80,000' },
-      { service: 'Interior Detailing', price: '₹45,000 – ₹65,000' },
-      { service: 'Full Premium Detailing', price: '₹1,00,000 – ₹1,40,000' },
-      { service: 'Charter Turnaround Service', price: '₹16,000 – ₹22,000' }
+      { service: 'Exterior Detailing', price: '₹10,000' },
+      { service: 'Interior Detailing', price: '₹5000' },
+      { service: 'Full Premium Detailing', price: '₹20,000' },
+      { service: 'Charter Turnaround Service', price: '₹25,000' }
     ]
   },
   {
@@ -51,10 +51,10 @@ const fleetData = [
     name: 'Helicopters & Choppers',
     image: '/images/chopper.png',
     pricing: [
-      { service: 'Exterior Polish & Wax', price: '₹25,000 – ₹45,000' },
-      { service: 'VIP Cabin Detailing', price: '₹20,000 – ₹35,000' },
-      { service: 'Rotor & Blade Cleaning', price: '₹15,000 – ₹25,000' },
-      { service: 'Full Premium Heli Turnaround', price: '₹50,000 – ₹85,000' }
+      { service: 'Exterior Polish & Wax', price: '₹10,000' },
+      { service: 'VIP Cabin Detailing', price: '₹5,000' },
+      { service: 'Rotor & Blade Cleaning', price: '₹15,000' },
+      { service: 'Full Premium Heli Turnaround', price: '₹25,000' }
     ]
   },
   {
@@ -62,10 +62,10 @@ const fleetData = [
     name: 'Heavy Jets & Commercial',
     image: '/images/heavy_jet.png',
     pricing: [
-      { service: 'Exterior Dry Wash (Body)', price: '₹75,000 – ₹1,20,000' },
-      { service: 'Deep Cabin Extraction (Seats/Carpet)', price: '₹60,000 – ₹90,000' },
-      { service: 'Full Turnaround & Galley Detailing', price: '₹1,00,000 – ₹1,80,000' },
-      { service: 'Exterior Wet Wash & Degreasing', price: '₹90,000 – ₹1,50,000' }
+      { service: 'Exterior Dry Wash (Body)', price: '₹50,000' },
+      { service: 'Deep Cabin Extraction (Seats/Carpet)', price: '₹60,000' },
+      { service: 'Full Turnaround & Galley Detailing', price: '₹1,00,000' },
+      { service: 'Exterior Wet Wash & Degreasing', price: '₹50,000' }
     ]
   },
   {
@@ -73,10 +73,10 @@ const fleetData = [
     name: 'Hawker 900XP',
     image: '/images/hero_jet.png',
     pricing: [
-      { service: 'Exterior Detailing', price: '₹40,000 – ₹55,000' },
-      { service: 'Interior Detailing', price: '₹30,000 – ₹45,000' },
-      { service: 'Full Premium Detailing', price: '₹70,000 – ₹95,000' },
-      { service: 'Charter Turnaround Service', price: '₹10,000 – ₹16,000' }
+      { service: 'Exterior Detailing', price: '₹5,000' },
+      { service: 'Interior Detailing', price: '₹5,000' },
+      { service: 'Full Premium Detailing', price: '₹10,000' },
+      { service: 'Charter Turnaround Service', price: '₹15,000' }
     ]
   }
 ];
@@ -84,10 +84,10 @@ const fleetData = [
 const addOns = [
   { service: 'Ceramic Coating', price: 'Starting ₹40,000' },
   { service: 'Leather Restoration', price: 'Starting ₹15,000' },
-  { service: 'Odor Elimination Treatment', price: 'Starting ₹8,000' },
-  { service: 'Carpet Deep Extraction', price: 'Starting ₹12,000' },
-  { service: 'Brightwork Restoration', price: 'Starting ₹18,000' },
-  { service: 'Overnight VIP Preparation', price: 'Starting ₹20,000' },
+  { service: 'Odor Elimination Treatment', price: 'Starting ₹5,000' },
+  { service: 'Carpet Deep Extraction', price: 'Starting ₹5,000' },
+  { service: 'Brightwork Restoration', price: 'Starting ₹5,000' },
+  { service: 'Overnight VIP Preparation', price: 'Starting ₹15,000' },
   { service: 'Galley Deep Cleaning', price: 'Starting ₹10,000' }
 ];
 
