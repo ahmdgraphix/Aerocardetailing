@@ -67,20 +67,9 @@ const About: React.FC = () => {
             variants={fadeUp}
           >
             <h2 className="text-sm text-cyan tracking-[0.3em] uppercase mb-4">Our Mission</h2>
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-              {[
-                "Premium & affordable solutions",
-                "Highest hygiene & luxury standards",
-                "Fast turnaround support for charters",
-                "Preserve aesthetics & long-term value",
-                "Long-lasting partnerships",
-                "Precision, professionalism & passion"
-              ].map((item, i) => (
-                <div key={i} className="p-4 border border-surface bg-surface/20 rounded-sm">
-                  <p className="text-sm text-metallic/90 font-light">{item}</p>
-                </div>
-              ))}
-            </div>
+            <p className="text-xl md:text-2xl font-light text-white leading-relaxed">
+              Our mission is to deliver premium detailing solutions with the highest hygiene and luxury standards. We are dedicated to providing fast turnaround support for charters, preserving the aesthetics and long-term value of your aircraft, and building enduring partnerships through precision, professionalism, and passion.
+            </p>
           </motion.div>
         </div>
       </div>
