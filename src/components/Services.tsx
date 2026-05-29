@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Sparkles, Armchair, Clock, Utensils, Calendar } from 'lucide-react';
+import { Sparkles, Armchair, Clock, Utensils, Calendar, Activity } from 'lucide-react';
 
 const services = [
   {
@@ -42,6 +42,14 @@ const services = [
     description: 'Weekly detailing schedules, monthly protection treatments, interior preservation plans, and VIP readiness inspections.',
     colSpan: 'col-span-1 md:col-span-1 lg:col-span-1',
     bgImage: 'bg-gradient-to-b from-surface to-background',
+  },
+  {
+    id: 'medical',
+    title: 'Medical Flight Interior Cleaning',
+    icon: Activity,
+    description: 'Professional cleaning and sanitization services for medical aircraft, including Beechcraft King Air and CB90.',
+    colSpan: 'col-span-1 md:col-span-3 lg:col-span-3',
+    bgImage: 'bg-gradient-to-r from-surface to-background',
   }
 ];
 

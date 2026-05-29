@@ -5,7 +5,7 @@ const fleetData = [
   {
     id: 'g200',
     name: 'Gulfstream G200',
-    image: '/images/jet_midflight.png',
+    image: '/images/fleet/g200.jpeg',
     pricing: [
       { service: 'Exterior Detailing', price: '₹10,000' },
       { service: 'Interior Detailing', price: '₹5000' },
@@ -16,7 +16,7 @@ const fleetData = [
   {
     id: 'falcon6x',
     name: 'Falcon 6X',
-    image: '/images/hero_jet.png',
+    image: '/images/fleet/falcon6x.png',
     pricing: [
      { service: 'Exterior Detailing', price: '₹15,000' },
       { service: 'Interior Detailing', price: '₹5,000' },
@@ -27,7 +27,7 @@ const fleetData = [
   {
     id: 'legacy600',
     name: 'Embraer Legacy 600 / 650',
-    image: '/images/jet_interior.png',
+    image: '/images/fleet/legacy600.png',
     pricing: [
       { service: 'Exterior Detailing', price: '₹10,000' },
       { service: 'Interior Detailing', price: '₹5000' },
@@ -38,7 +38,7 @@ const fleetData = [
   {
     id: 'falcon2000lx',
     name: 'Falcon 2000LX',
-    image: '/images/jet_midflight.png',
+    image: '/images/fleet/falcon200lx.png',
     pricing: [
       { service: 'Exterior Detailing', price: '₹10,000' },
       { service: 'Interior Detailing', price: '₹5000' },
@@ -49,7 +49,7 @@ const fleetData = [
   {
     id: 'chopper',
     name: 'Helicopters & Choppers',
-    image: '/images/chopper.png',
+    image: '/images/fleet/chopper.png',
     pricing: [
       { service: 'Exterior Polish & Wax', price: '₹10,000' },
       { service: 'VIP Cabin Detailing', price: '₹5,000' },
@@ -60,7 +60,7 @@ const fleetData = [
   {
     id: 'heavy',
     name: 'Heavy Jets & Commercial',
-    image: '/images/heavy_jet.png',
+    image: '/images/fleet/heavy_jets.png',
     pricing: [
       { service: 'Exterior Dry Wash (Body)', price: '₹50,000' },
       { service: 'Deep Cabin Extraction (Seats/Carpet)', price: '₹60,000' },
@@ -71,7 +71,7 @@ const fleetData = [
   {
     id: 'hawker900xp',
     name: 'Hawker 900XP',
-    image: '/images/hero_jet.png',
+    image: '/images/fleet/hawker900xp.png',
     pricing: [
       { service: 'Exterior Detailing', price: '₹5,000' },
       { service: 'Interior Detailing', price: '₹5,000' },

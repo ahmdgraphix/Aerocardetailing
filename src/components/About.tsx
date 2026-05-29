@@ -85,8 +85,8 @@ const About: React.FC = () => {
         <div className="text-center mb-12">
           <h2 className="text-sm text-cyan tracking-[0.3em] uppercase mb-4">Comprehensive Coverage</h2>
           <p className="text-xl md:text-2xl font-light text-white leading-relaxed max-w-3xl mx-auto">
-            From heavy commercial jets to luxury supercars, we handle it all. <br/>
-            <span className="text-cyan font-medium">All Indian Chopper & Helicopter cleaning services are also undertaken with VIP precision.</span>
+            From commercial jets to private aircraft, we handle it all. <br/>
+            <span className="text-cyan font-medium">Helicopter and chopper cleaning services are also provided with VIP precision.</span>
           </p>
         </div>
 
