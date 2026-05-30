@@ -150,6 +150,15 @@ const Booking: React.FC = () => {
             </motion.button>
           </div>
           
+          {/* Conditions */}
+          <div className="md:col-span-2 mt-8 text-left border-t border-surface/50 pt-6">
+            <p className="text-xs text-cyan uppercase tracking-wider mb-2 font-medium">*Conditions Apply:</p>
+            <ol className="list-decimal list-inside text-xs text-metallic/70 font-light space-y-1.5">
+              <li>All services shall be provided with a minimal notice period of 6 hrs LT</li>
+              <li>Any service that has been requested for, but has not been utilised by the Client- would incur a minimal service charge to be borne by the Client</li>
+            </ol>
+          </div>
+          
         </motion.form>
       </div>
     </section>
